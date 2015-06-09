@@ -30,7 +30,7 @@
 
     <form>
       <div class="input-group">
-          <input type="text" class="form-control" name="q" placeholder="Search ..." {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
+          <input type="text" class="form-control" name="q" placeholder="Search ..." autocomplete="off" autocapitalize="none" {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
           <span class="input-group-btn">
             <button class="btn btn-primary" type="submit">Go!</button>
           </span>
