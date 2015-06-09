@@ -31,3 +31,13 @@ footer {
 .results-name {
   font-size: 30px;
 }
+
+h1:first-letter {
+  text-transform: uppercase;
+}
+
+.img-icon {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
