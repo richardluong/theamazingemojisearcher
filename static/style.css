@@ -8,10 +8,6 @@ footer {
   font-size: 200px;
 }
 
-_:-webkit-full-screen, :root .selector { 
-  display: none;
-}
-
 .start-index-emoji {
   margin-bottom: -40px;
 }
@@ -74,6 +70,19 @@ _:-webkit-full-screen, :root .selector {
 
 .results-name {
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+  .li-results {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .results-name {
+    font-size: 16px;
+  }
+
 }
 
 h1:first-letter {
