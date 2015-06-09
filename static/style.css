@@ -4,7 +4,28 @@ footer {
 }
 
 .index-emoji {
-    font-size: 200px
+  font-family: 'AppleColorEmoji';
+  font-size: 200px; 
+}
+
+.start-index-emoji {
+  font-family: 'AppleColorEmoji';
+  margin-bottom: -40px;
+}
+
+.index-subtitle {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.index-subtitle a {
+  color: #ccc;
+}
+
+.index-subtitle a:hover{
+  text-decoration: none;
+  color: #aaa;
 }
 
 .alert {

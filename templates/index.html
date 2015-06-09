@@ -7,9 +7,13 @@
   </style>
 {% endblock %}
 {% block content %}
-    <div class="text-center index-emoji">
+    <div class="text-center index-emoji start-index-emoji">
       {{rand_emoji.browser}}
     </div>
+    <div class="text-center index-subtitle">
+      <a href="/emoji/{{ rand_emoji.index }}">{{ rand_emoji.name }}</a>
+    </div>
+
     <form>
       <div class="input-group">
           <input type="text" class="form-control" name="q" placeholder="Search ..." {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
@@ -22,7 +26,7 @@
     {% if query and not results %}
     <div class="alert alert-warning alert-dismissible" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Holy guacamole!</strong> The awesome emoji searcher could not find a matching emoji. 😫
+      <strong>Holy guacamole!</strong> The Awesome Emoji Searcher could not find a matching emoji. 😫
     </div>
     {% endif %}
 
