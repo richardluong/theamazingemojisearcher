@@ -1,0 +1,46 @@
+[2015-06-09 13:57:48 +0800] [10799] [INFO] Starting gunicorn 19.3.0
+[2015-06-09 13:57:48 +0800] [10799] [INFO] Listening at: http://0.0.0.0:5000 (10799)
+[2015-06-09 13:57:48 +0800] [10799] [INFO] Using worker: sync
+[2015-06-09 13:57:48 +0800] [10802] [INFO] Booting worker with pid: 10802
+[2015-06-09 13:59:11 +0800] [10799] [INFO] Handling signal: int
+[2015-06-09 13:59:11 +0800] [10802] [INFO] Worker exiting (pid: 10802)
+[2015-06-09 13:59:11 +0800] [10799] [INFO] Shutting down: Master
+[2015-06-09 13:59:13 +0800] [10822] [INFO] Starting gunicorn 19.3.0
+[2015-06-09 13:59:13 +0800] [10822] [INFO] Listening at: http://0.0.0.0:5000 (10822)
+[2015-06-09 13:59:13 +0800] [10822] [INFO] Using worker: sync
+[2015-06-09 13:59:13 +0800] [10825] [INFO] Booting worker with pid: 10825
+[2015-06-09 13:59:27 +0800] [10822] [INFO] Handling signal: int
+[2015-06-09 13:59:27 +0800] [10825] [INFO] Worker exiting (pid: 10825)
+[2015-06-09 13:59:27 +0800] [10822] [INFO] Shutting down: Master
+[2015-06-09 14:03:13 +0800] [10906] [INFO] Starting gunicorn 19.3.0
+[2015-06-09 14:03:13 +0800] [10906] [INFO] Listening at: http://0.0.0.0:5000 (10906)
+[2015-06-09 14:03:13 +0800] [10906] [INFO] Using worker: sync
+[2015-06-09 14:03:13 +0800] [10909] [INFO] Booting worker with pid: 10909
+[2015-06-09 14:08:44 +0800] [10906] [INFO] Handling signal: int
+[2015-06-09 14:08:44 +0800] [10909] [INFO] Worker exiting (pid: 10909)
+[2015-06-09 14:08:44 +0800] [10906] [INFO] Shutting down: Master
+[2015-06-09 14:08:45 +0800] [10928] [INFO] Starting gunicorn 19.3.0
+[2015-06-09 14:08:45 +0800] [10928] [INFO] Listening at: http://0.0.0.0:5000 (10928)
+[2015-06-09 14:08:45 +0800] [10928] [INFO] Using worker: sync
+[2015-06-09 14:08:45 +0800] [10931] [INFO] Booting worker with pid: 10931
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:20 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch
+[2015-06-09 14:09:21 +0800] [10928] [INFO] Handling signal: winch

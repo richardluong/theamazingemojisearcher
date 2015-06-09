@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block title %}{{ emoji.browser }}{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+
+  h1:first-letter {
+      text-transform: uppercase;
+  }
+
+  .img-icon {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+</style>
+{% endblock %}
+{% block content %} 
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ emoji.browser }} {{ emoji.name }}</li>
+</ol>
+
+<h1>{{ emoji.name }}</h1>
+<div class="row">
+<div class="col-xs-12 index-emoji text-center">
+  {{ emoji.browser }}
+</div>
+
+<div class="col-sm-6">
+  <h2>Description</h2>
+  <p>{{ emoji.desc }}</p>
+
+  <h3>Also known as</h3>
+  <ul>
+    {% for k in emoji.known_as %}
+    <li>{{ k }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="col-sm-6">
+  <h2>Related to</h2>
+  <ul>
+    {% for rel in emoji.related_to %}
+    <li>{{ rel }}</li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
+
+<div class="row">
+  <h2>Different versions</h2>
+  <div class="col-sm-2 text-center">
+    <strong>iPhone</strong>
+    <img class="img-icon" src="{{ emoji.apple }}" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <strong>Android</strong>
+    <img class="img-icon" src="{{ emoji.andr }}" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <strong>Twitter</strong>
+    <img class="img-icon" src="{{ emoji.twit }}" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <strong>Gmail</strong>
+    <img class="img-icon" src="{{ emoji.gmail }}" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <strong>Windows</strong>
+    <img class="img-icon" src="{{ emoji.wind }}" />
+  </div>
+  <div class="col-sm-2 text-center">
+    <strong>Black and white</strong>
+    <img class="img-icon" src="{{ emoji.bw }}" />
+  </div>
+</div>
+{% endblock %}

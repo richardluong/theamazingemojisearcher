@@ -1,0 +1,29 @@
+footer {
+    margin: 20px 0;
+    color: #ccc
+}
+
+.index-emoji {
+    font-size: 200px
+}
+
+.li-results {
+  font-size: 60px;
+  border: 3px dotted rgba(0, 0, 255, 0.05);
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.li-results a {
+  color: #aaa;
+  opacity: 0.8
+}
+
+.li-results a:hover {
+  text-decoration: none;
+  opacity: 1
+}
+
+.results-name {
+  font-size: 30px;
+}

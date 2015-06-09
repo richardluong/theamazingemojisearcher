@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    
+  </style>
+{% endblock %}
+{% block content %}
+    <div class="text-center index-emoji">
+      😄
+    </div>
+    <form>
+      <div class="input-group">
+          <input type="text" class="form-control" name="q" placeholder="Search ..." {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div>
+    </form>
+
+    {% if results %}
+
+    <ul class="list-unstyled">
+    {% for result in results %}
+        <li class="col-xs-12 text-center li-results"><a href="emoji/{{ result['index'] }}">{{ result['browser'] }} <span class="results-name">{{ result['name'] }}</span></a></li>
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+    
+
+{% endblock %}
+
+
