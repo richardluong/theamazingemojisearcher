@@ -5,11 +5,12 @@ footer {
 
 .index-emoji {
   font-family: 'AppleColorEmoji';
-  font-size: 200px; 
+  font-size: 200px;
+  -webkit-transform: scale(5);
+  position: absolute;
 }
 
 .start-index-emoji {
-  font-family: 'AppleColorEmoji';
   margin-bottom: -40px;
 }
 
