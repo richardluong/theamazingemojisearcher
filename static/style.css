@@ -6,11 +6,18 @@ footer {
 .index-emoji {
   font-family: 'AppleColorEmoji';
   font-size: 200px;
-  -webkit-transform: scale(1);
+}
+
+_:-webkit-full-screen, :root .selector { 
+  display: none;
 }
 
 .start-index-emoji {
   margin-bottom: -40px;
+}
+
+.start-index-emoji a:hover {
+  text-decoration: none;
 }
 
 .index-subtitle {

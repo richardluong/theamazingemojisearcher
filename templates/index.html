@@ -7,18 +7,32 @@
   </style>
 {% endblock %}
 {% block content %}
+
+    {% if results %}
+
     <div class="text-center index-emoji start-index-emoji">
-      {{rand_emoji.browser}}
+      <a href="/emoji/{{ results[0]['index'] }}">{{ results[0]['browser']}}</a>
+    </div>
+    <div class="text-center index-subtitle">
+      <a href="/emoji/{{ results[0]['index'] }}">{{ results[0]['name'] }}</a>
+    </div>
+
+    {% else %}
+
+    <div class="text-center index-emoji start-index-emoji">
+      <a href="/emoji/{{ rand_emoji.index }}">{{rand_emoji.browser}}</a>
     </div>
     <div class="text-center index-subtitle">
       <a href="/emoji/{{ rand_emoji.index }}">{{ rand_emoji.name }}</a>
     </div>
 
+    {% endif %}
+
     <form>
       <div class="input-group">
           <input type="text" class="form-control" name="q" placeholder="Search ..." {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
           <span class="input-group-btn">
-            <button class="btn btn-default" type="button">Go!</button>
+            <button class="btn btn-primary" type="submit">Go!</button>
           </span>
         </div>
     </form>
