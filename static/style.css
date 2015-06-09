@@ -35,6 +35,22 @@ _:-webkit-full-screen, :root .selector {
   color: #aaa;
 }
 
+@media (max-width: 768px) {
+
+  .index-emoji {
+    font-size: 16px;
+  }
+
+  .start-index-emoji {
+    margin-bottom: 0px;
+  }
+
+  .index-subtitle {
+    margin-bottom: 20px;
+  }
+
+}
+
 .alert {
   margin: 10px 0;
 }
