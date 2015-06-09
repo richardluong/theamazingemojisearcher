@@ -6,8 +6,7 @@ footer {
 .index-emoji {
   font-family: 'AppleColorEmoji';
   font-size: 200px;
-  -webkit-transform: scale(5);
-  position: absolute;
+  -webkit-transform: scale(1);
 }
 
 .start-index-emoji {
