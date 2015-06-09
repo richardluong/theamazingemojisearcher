@@ -7,6 +7,10 @@ footer {
     font-size: 200px
 }
 
+.alert {
+  margin: 10px 0;
+}
+
 .li-results {
   font-size: 60px;
   border: 3px dotted rgba(0, 0, 255, 0.05);

@@ -5,7 +5,7 @@
 <style type="text/css">
 
   h1:first-letter {
-      text-transform: uppercase;
+    text-transform: uppercase;
   }
 
   .img-icon {
@@ -25,33 +25,38 @@
 
 <h1>{{ emoji.name }}</h1>
 <div class="row">
-<div class="col-xs-12 index-emoji text-center">
-  {{ emoji.browser }}
+  <div class="col-xs-12 index-emoji text-center">
+    {{ emoji.browser }}
+  </div>
+  <a href="#" data-clipboard-text="{{ emoji.browser }}">Copy to browser</a>
+
+  <div class="col-sm-6">
+    <h2>Description</h2>
+    <p>{{ emoji.desc }}</p>
+
+    {% if emoji.known_as|length > 1 %}
+    <h3>Also known as</h3>
+    <ul>
+      {% for k in emoji.known_as %}
+      <li>{{ k }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
+  <div class="col-sm-6">
+    {% if emoji.related_to|length > 1 %}
+    <h2>Related to</h2>
+    <ul>
+      {% for rel in emoji.related_to %}
+      <li>{{ rel }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </div>
 
-<div class="col-sm-6">
-  <h2>Description</h2>
-  <p>{{ emoji.desc }}</p>
-
-  <h3>Also known as</h3>
-  <ul>
-    {% for k in emoji.known_as %}
-    <li>{{ k }}</li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="col-sm-6">
-  <h2>Related to</h2>
-  <ul>
-    {% for rel in emoji.related_to %}
-    <li>{{ rel }}</li>
-    {% endfor %}
-  </ul>
-</div>
-</div>
-
-<div class="row">
+<div class="col-xs-12 row">
   <h2>Different versions</h2>
   <div class="col-sm-2 text-center">
     <strong>iPhone</strong>
@@ -78,4 +83,6 @@
     <img class="img-icon" src="{{ emoji.bw }}" />
   </div>
 </div>
+{% endblock %}
+{% block js %}
 {% endblock %}

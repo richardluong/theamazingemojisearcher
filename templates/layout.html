@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ url_for('static', filename='favicon.ico') }}" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <title>{% block title %}{% endblock %} · Emoji search</title>
@@ -46,4 +47,6 @@
 </footer>
 <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+{% block js %}{% endblock %}
 </html>
