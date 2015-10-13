@@ -12,8 +12,7 @@ Total (10)
 
 <!-- Outline -->
 
-Awarded __Best Student Project Award, 2015__ at Tsinghua University.
-Available at http://theamazingemojisearcher.herokuapp.com
+Awarded __Best Student Project Award, 2015__ at Tsinghua University. Available at http://theamazingemojisearcher.herokuapp.com
 
 <!-- 5 min -->
 # Introduction 
