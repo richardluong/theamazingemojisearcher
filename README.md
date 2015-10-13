@@ -12,7 +12,7 @@ Total (10)
 
 <!-- Outline -->
 
-[TOC]
+Awarded __Best Student Project Award, 2015__ at Tsinghua University.
 
 <!-- 5 min -->
 # Introduction 
