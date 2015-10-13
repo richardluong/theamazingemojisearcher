@@ -1,5 +1,6 @@
 ### Project specific
 
+old/
 logfile.txt
 crawler.py
 se.py
