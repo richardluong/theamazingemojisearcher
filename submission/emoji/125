@@ -1,0 +1,107 @@
+ccopy_reg
+_reconstructor
+p0
+(cemoji
+Emoji
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'emojipedia_url'
+p6
+Vhttp://emojipedia.org/reversed-hand-with-middle-finger-extended/
+p7
+sS'index'
+p8
+V125
+p9
+sS'code'
+p10
+VU+1F595
+p11
+sS'apple'
+p12
+S''
+p13
+sS'twit'
+p14
+g13
+sS'gmail'
+p15
+g13
+sS'related_to'
+p16
+(lp17
+V\U0001f446 White Up Pointing Backhand Index
+p18
+aV\u261d\ufe0f White Up Pointing Index
+p19
+aV\U0001f594 Reversed Victory Hand
+p20
+aV\U0001f44e Thumbs Down Sign
+p21
+aV\U0001f620 Angry Face
+p22
+aV\U0001f590 Raised Hand With Fingers Splayed
+p23
+asS'name'
+p24
+Vreversed hand with middle finger extended
+p25
+sS'known_as'
+p26
+(lp27
+V\U0001f595 Middle Finger Emoji
+p28
+aV\U0001f595 Rude Finger Emoji
+p29
+aV\U0001f595 Flipping The Bird Emoji
+p30
+asS'default'
+p31
+Vemoji
+p32
+sS'bw'
+p33
+S'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAFL0lEQVR42u2aWSi0XxzHkW1sL8YaWS5kCdNky1LWsS/JcuVCMXNju6CIQrhQlhQ11mIokl0JJVkiXFiKhLJOliwhsr/vt7/ep2muGM//9RzN70Jzfp5zOp9n+Z7v7zyPwu8fGgpyMDmYHEwOJgf792AXFxcikUgoFM7Nzf0csNXVVS0tLYW/ER8f//z8TDzY3d2dpaWlrq5uV1dXe3u7p6cn2Jqbm4kH6+joAElNTc17c2dnB83Q0FDiweLi4kByeHhIZWxsbDgcDvFgXC7X0NBQMuPm5gY24sHMzMx8fHwkMy4uLo6OjsSDmZiY+Pn5SWacnJxcXV2JBzM2Nvb395fM2NraSl3DHwJmZWUVFBREPJiRkVFAQIAUamRkJPFgkMTAwEDJjI6ODswH8WAGBgZSN56KikpSUhLxYGw2m8fjUc2npyes1ykpKcSD6evrBwcHU82rqyuApaWlEQ+mp6cXEhJCNcViMcCys7OJB4Ovl7S8W1tbACsoKPhpYMvLywArLS0lHuzXr19hYWFUc3Z2FmAVFRXEg2HVCg8Pp5rj4+MAq62tJR5MW1s7IiKCag4ODgKsqamJeDAtLS1JA9XV1QUwkUhEPJimpmZUVBTVbG1tBVh3dzfxYBoaGtHR0VSzsbERYENDQ4SBvb299ff3Z2RklJSUXF5eIsNisWJiYqgDIBsAg4S8N8/Pz19eXpgOtrGxgQqS2j+0t7c/OzuTAqupqcG/pqen29rauFwufquqqiYkJJycnDAUbHFxEWuxmppaVVXV8fEx1A+/ORwOvHxcXBx1WHV1NWBQoeEvbCTcsLW1NX7TXqHRA3ZwcICFGAK4tLREJScmJmAUMen8/HwqOTAwgIySkhKfz8d9+H73uru7I0nvRaMHLD09HTPr6OiQysPytrS0wNFTmefnZyj+5uam5GFlZWXoTu+2Pj1gNjY2RkZGOPeyda+srATY2toa48CMjY2l9tg+FahiAHZ7ewshlfns/C9gDg4Ozs7OX7mTFRUV31UECtTb28sUMF9fX1NTU5m7Q/09PDxiY2MFAgEUCGp5d3fHCDAIOmSdlqHy8vJw3VC2MQIsMTERYK+vr18fSigUAmxqaooRYE5OTvAZtAxVVFQEMKn14HvAjo6OMJWsrCxawPCYYbSbm5vvB2toaMBUxsbGaAGDt4J+MEIVUZWg6Hp4eKAFDOuhiYkJI8AsLCxg9uhyDDwej81mMwIMC6unpyddYP7+/vAxjABLS0tTVlaGhNAC5ujoCB/DCLCVlRWIR25uLi0FuLa2tuRLjG9ex4KCgqAfqJe/OM77VyC07OzTAwajgAnBy35xnO7ubro252jbGkC1jydtY2PjK4NkZmYCbHt7m0FgCwsLmJPkNr0MweFwLC0tmbWZ8/vv10UjIyOydd/b20NVlpqayjgwOFfcjXZ2drJ9tZeTk4PzMjMzwzgw6iGpr6//bMe+vj4lJSVvb29m7XlQcX19Dadnbm7++Pj48V6Tk5NqamroJRaLGQqGqKurw0UbHR394PG7u7v6/8X6+jqN06AfrKenB2Af35Dh8/l4Mmn/Vvj7wUJDQ/X09Gifhhzsk2Dl5eUf0Y/7+3svLy8ywLBAQ7jBhgofxbVQKJyfn9/f3396enongVrApiAfERHBYrFwJPSQADDE6elpU1MT5q2urk69LoOr0NDQUJAIaEZ4eHhnZydoyQCj4vb2dnx8HJCFhYXJyckxMTECgaC4uLihoWF4eJj2l33/DuwbQw4mB5ODycFkij9iPZWVrn1JFgAAAABJRU5ErkJggg=='
+p34
+sS'version'
+p35
+VV7.0\u02e3
+p36
+sS'uni'
+p37
+V\U0001f595
+p38
+sS'desc'
+p39
+V\U0001f595 A middle finger emoji, used in western cultures as a rude or insulting gesture. The back of the hand is shown with the middle finger raised. Similar in meaning to the Reversed Victory Hand in Britain. Part of the Unicode 7.0 update. Requires Windows 10. This emoji is recommended to be displayed with a nonhuman skin tone by default, unless a skin tone modifier is applied. 
+p40
+sS'browser'
+p41
+V\U0001f595
+p42
+sS'annotations'
+p43
+(lp44
+Vbody
+p45
+aVfinger
+p46
+aVhand
+p47
+aVmiddle finger
+p48
+aVperson
+p49
+asS'wind'
+p50
+S'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKKSURBVHhe7do/axRRFAXwmd1WsBFsbAX/lPoBRGy00MZillE7BavYWFrYh2ApluqyA3YiplDwC0QsJKygdulMY2E5u567czdsTPCJO+e9yXJ+MNz7Ntvk7Hsvs2+SiYiIiIiIiHRN7jW5qqrK6XR6Is/z7aIo3vvLyXUiIITzAeVSM5pZR0gPvU+q5zWZ0Wi0hrIYToaZdNfb5JIHhCV1wds9eO24B5dc8oC6TgEFJA8I+80vbzupCzPoi9dO0hILUEABCihAAQUooAAFFKCAAhRQgAIKUEAB0Q7Mqqq6gu9d563P83y3KIqh9XasgfET6xfhvQ9QzuBnF5tXsh+4NmKfNkYJCOG8QrnZjPbZwmW/+NXZaL8xrrNNu2enruvLZVl+9TEdPSCE8xzldjNans0szKpTaG1mHcP1BrPqsf2MgRqQLSuUd82oNQdmFkJ7OhgM7vuwVexN+o7XNv257MzAa+vYAc03WCo7w/a2dbSAhsPhaZTDPu0jhRZQr9e75u2RRgsI0/7A4xwi27gp2HtQLLSD/1UJiGZVArK7cQpaQLh5++htDLteW6clFkALaDKZvPU2hu9eW0cLyL9x7zQjum9eW8deYp+90mCv+zk/W2JgB7TtlQY3pJ+8paAGVNf1M2+Z7NCNhhqQ70ObzYiD/SGwl5jZ8MqwyT5+pQfkh+ysWcQMfybGDLJlsGZ/bXzYlhcxnnDEfOxTorxsRksbI5xz3lNFmUHG71XWm9FSxpiRN7ynixaQQUj23/O3cP3vHfYsnJV6LnYYO6/u9/uPsC9d/5cDd9u/8L7XCJjxlOSvkgQ050HdQ2tPP07iWjzkt1lm37G27F4n5qwRERERERER6bAs+w1s3KwWZSe9SQAAAABJRU5ErkJggg=='
+p51
+sS'andr'
+p52
+g13
+sb.

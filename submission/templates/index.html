@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    
+  </style>
+{% endblock %}
+{% block content %}
+
+    {% if results %}
+
+    <div class="text-center index-emoji start-index-emoji">
+      <a href="/emoji/{{ results[0]['index'] }}">{{ results[0]['browser']}}</a>
+    </div>
+    <div class="text-center index-subtitle">
+      <a href="/emoji/{{ results[0]['index'] }}">{{ results[0]['name'] }}</a>
+    </div>
+
+    {% else %}
+
+    <div class="text-center index-emoji start-index-emoji">
+      <a href="/emoji/{{ rand_emoji.index }}">{{rand_emoji.browser}}</a>
+    </div>
+    <div class="text-center index-subtitle">
+      <a href="/emoji/{{ rand_emoji.index }}">{{ rand_emoji.name }}</a>
+    </div>
+
+    {% endif %}
+
+    <form>
+      <div class="input-group">
+          <input type="search" class="form-control" name="q" placeholder="Search emoji 😋" autocomplete="off" autocapitalize="none" {% if query %} value="{{ query }}" {% else %} autofocus="" {% endif %}>
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="submit">🔍</button>
+          </span>
+        </div>
+    </form>
+
+    {% if query and not results %}
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>Holy guacamole!</strong> The Awesome Emoji Searcher could not find a matching emoji. 😫
+    </div>
+    {% endif %}
+
+    {% if results %}
+
+    <ul class="list-unstyled">
+    {% for result in results %}
+        <li class="col-xs-12 text-center li-results"><a href="emoji/{{ result['index'] }}">{{ result['browser'] }} <span class="results-name">{{ result['name'] }}</span></a></li>
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+    
+
+{% endblock %}
+
+

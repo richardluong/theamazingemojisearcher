@@ -1,0 +1,104 @@
+ccopy_reg
+_reconstructor
+p0
+(cemoji
+Emoji
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'emojipedia_url'
+p6
+Vhttp://emojipedia.org/sleuth-or-spy/
+p7
+sS'index'
+p8
+V88
+p9
+sS'code'
+p10
+VU+1F575
+p11
+sS'apple'
+p12
+S''
+p13
+sS'twit'
+p14
+g13
+sS'gmail'
+p15
+g13
+sS'related_to'
+p16
+(lp17
+V\U0001f46e Police Officer
+p18
+aV\U0001f50d Left-Pointing Magnifying Glass
+p19
+aV\U0001f510 Closed Lock With Key
+p20
+aV\U0001f4f7 Camera
+p21
+aV\U0001f6ac Smoking Symbol
+p22
+aV\U0001f4f0 Newspaper
+p23
+asS'name'
+p24
+Vsleuth or spy
+p25
+sS'known_as'
+p26
+(lp27
+V\U0001f575 Detective Emoji
+p28
+aV\U0001f575 Spy Emoji
+p29
+aV\U0001f575 Sleuth Emoji
+p30
+aV\U0001f575 Private Eye Emoji
+p31
+asS'default'
+p32
+Vtext
+p33
+sS'bw'
+p34
+S'data:image/png;base64,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'
+p35
+sS'version'
+p36
+VV7.0\u02b7
+p37
+sS'uni'
+p38
+V\U0001f575
+p39
+sS'desc'
+p40
+V\U0001f575 An undercover investigator, wearing a hat, trench coat, and smoking a cigarette. Coming soon as part of the Unicode 7.0 update. 
+p41
+sS'browser'
+p42
+V\U0001f575
+p43
+sS'annotations'
+p44
+(lp45
+Vperson
+p46
+aVsleuth
+p47
+aVspy
+p48
+asS'wind'
+p49
+g13
+sS'andr'
+p50
+g13
+sb.

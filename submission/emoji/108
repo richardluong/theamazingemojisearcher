@@ -1,0 +1,100 @@
+ccopy_reg
+_reconstructor
+p0
+(cemoji
+Emoji
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'emojipedia_url'
+p6
+Vhttp://emojipedia.org/man-in-business-suit-levitating/
+p7
+sS'index'
+p8
+V108
+p9
+sS'code'
+p10
+VU+1F574
+p11
+sS'apple'
+p12
+S''
+p13
+sS'twit'
+p14
+g13
+sS'gmail'
+p15
+g13
+sS'related_to'
+p16
+(lp17
+V\U0001f3c3 Runner
+p18
+aV\U0001f4bc Briefcase
+p19
+aV\U0001f454 Necktie
+p20
+aV\U0001f468 Man
+p21
+asS'name'
+p22
+Vman in business suit levitating
+p23
+sS'known_as'
+p24
+(lp25
+V\U0001f574 Jumping Emoji
+p26
+aV\U0001f574 Jump Emoji
+p27
+aV\U0001f574 Hovering Man Emoji
+p28
+asS'default'
+p29
+Vtext
+p30
+sS'bw'
+p31
+S'data:image/png;base64,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'
+p32
+sS'version'
+p33
+VV7.0\u02b7
+p34
+sS'uni'
+p35
+V\U0001f574
+p36
+sS'desc'
+p37
+V\U0001f574 A man wearing a suit, hovering above the ground with a shadow displayed beneath him. This character is speculated to have been intended as \u201can exclamation mark in the style of the rude boy logo found on records by The Specials published under the 2 Tone Records label\u201d according to a blog post by Andrew West. Coming soon as part of the Unicode 7.0 update. 
+p38
+sS'browser'
+p39
+V\U0001f574
+p40
+sS'annotations'
+p41
+(lp42
+Vbusiness
+p43
+aVman
+p44
+aVperson
+p45
+aVsuit
+p46
+asS'wind'
+p47
+g13
+sS'andr'
+p48
+g13
+sb.
