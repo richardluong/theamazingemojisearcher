@@ -12,7 +12,9 @@ Total (10)
 
 <!-- Outline -->
 
-Awarded __Best Student Project Award, 2015__ at Tsinghua University. Available at http://theamazingemojisearcher.herokuapp.com
+Available at http://theamazingemojisearcher.herokuapp.com 
+
+Awarded __Best Student Project Award, 2015__ at Tsinghua University. 
 
 <!-- 5 min -->
 # Introduction 
@@ -232,10 +234,6 @@ The result of this project can be examined on http://emoji-search.herokuapp.com/
 
 Evaluation is a bit difficult to perform on my search engine, as its made for users that already know which emojis that are available for a word.
 
-A small evaluation test was made with one participant. She 
-
-    TBD
-
 <!-- 3 min -->
 # Discussion
 
@@ -247,16 +245,14 @@ One of the main advantages with The Amazing Emoji Searcher is that it is special
 
 Another advantage is that it not only search for an exact match in the name of the emoji. This is the main drawback of other emoji searchers, such as Emojipedia and Apple Character Viewer keyboard. When searching for "gun", The Amazing Emoji Searcher manages to find the pistol emoji. The same query on the Apple keyboard results in no hits.
 
-    ## Drawbacks
+## Drawbacks
 
 The main drawback is that The Amazing Emoji Searcher can't capture the semantic meaning of a query. It can only display results that includes the terms in the query. This can sometimes lead to very misleading results. 
 
 For example, a search on "toy" delivers a poddle and a pistol as results. Not suitable for children at all.
 
-    ## Future work
+## Future work
 
 The extensions of this project could be to implement semantics in the search engine. A very interesting work has been done by the engineers at Instagram, that tried to use machine learning on emojis. The authors managed find words that worresponds to the specified emoji, grouping them into clusters. Adding this to this project would allow the users to search for more emojis.
 
 This project could extend the normal emoji keyboards, by allowing the users to select an emoji based on a search query than choosing from a list. The user often knows which emoji he or she wants, and selecting from a list of 10 emojis is way easier than doing it from 1281 different ones.
-
-    # Appendix
